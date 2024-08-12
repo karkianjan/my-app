@@ -2,6 +2,7 @@
   margin-inline: auto;
   width: 80%;
   text-align: center;
+  position: relative;
 }
 
 button {

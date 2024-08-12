@@ -17,7 +17,7 @@ function Timer(){
 
     return (
         <div>
-           <p> You have wait <span id="timer">{timer}</span> in this browser.</p> 
+           <p>  <span id="timer">{timer}</span> </p> 
 
         </div>
     )
