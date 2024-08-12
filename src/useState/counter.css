@@ -1,0 +1,19 @@
+.container {
+  margin-inline: auto;
+  width: 80%;
+  text-align: center;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  height: 2rem;
+  width: 5rem;
+  border: none;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}

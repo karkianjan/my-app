@@ -1,0 +1,9 @@
+#timer {
+  color: Black;
+  font-weight: bold;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  font-size: 3rem;
+  background-color: whitesmoke;
+}
