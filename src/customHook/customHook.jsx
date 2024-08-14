@@ -29,10 +29,5 @@ function UseFetch(url){
         }, ["jsonplaceholder.typicode.com/todos"]);
         return {data, loading, error};
         }
-      
-    
-
-
-
 
 export default UseFetch;

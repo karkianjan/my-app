@@ -4,7 +4,7 @@ import useFetch from "./customHook";
 function Data() {
   const [shouldFetch, setShouldFetch] = useState(false);
   const { data, loading, error } = useFetch(
-    shouldFetch ? "https://jsonplaceholder.typicode.com/todos" : null
+    shouldFetch ? "https://jsonplaceholder.typicode.com/todos/1" : null
   );
 
   if (loading) return <p>Loading.........</p>;

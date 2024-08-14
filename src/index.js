@@ -9,17 +9,19 @@ import Timer from "./useEffect/Timer";
 import Form from "./useRef/focusingInput";
 import VideoPlayer from "./useRef/playAndPause";
 import Data from "./customHook/useCustomHook";
+import Calculator from "./customHook/calculator/calculator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
     <Counter />
-    <InputField />
+    {/* <InputField /> */}
     <Timer />
-    <Form />
-    <VideoPlayer />
+    {/* <Form /> */}
+    {/* <VideoPlayer /> */}
     <Data />
+    <Calculator />
   </React.StrictMode>
 );
 
