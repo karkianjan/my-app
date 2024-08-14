@@ -6,6 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 import InputField from "./useState/inputField";
 import Counter from "./useState/counter";
 import Timer from "./useEffect/Timer";
+import Form from "./useRef/focusingInput";
+import VideoPlayer from "./useRef/playAndPause";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -14,10 +16,9 @@ root.render(
     <Counter />
     <InputField />
     <Timer />
+    <Form />
+    <VideoPlayer/>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
