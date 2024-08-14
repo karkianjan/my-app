@@ -26,7 +26,9 @@ function VideoPlayer(){
          onPlay={() => setIsPlaying(true)}
          onPause = {() => setIsPlaying (false)}>
     <source
-    src= ""/>
+
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+          type="video/mp4" height= "500px"  width= "500px"/>
     </video>
 </div>
 

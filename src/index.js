@@ -8,6 +8,7 @@ import Counter from "./useState/counter";
 import Timer from "./useEffect/Timer";
 import Form from "./useRef/focusingInput";
 import VideoPlayer from "./useRef/playAndPause";
+import Data from "./customHook/useCustomHook";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     <InputField />
     <Timer />
     <Form />
-    <VideoPlayer/>
+    <VideoPlayer />
+    <Data />
   </React.StrictMode>
 );
 
