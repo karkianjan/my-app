@@ -26,7 +26,7 @@ function VideoPlayer(){
          onPlay={() => setIsPlaying(true)}
          onPause = {() => setIsPlaying (false)}>
     <source
-    src="https://www.pexels.com/video/a-person-doing-research-with-books-and-electronic-datas-5537647/"/>
+    src= ""/>
     </video>
 </div>
 
