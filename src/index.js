@@ -19,9 +19,9 @@ root.render(
     {/* <InputField /> */}
     <Timer />
     {/* <Form /> */}
-    {/* <VideoPlayer /> */}
+    <VideoPlayer />
     <Data />
-    <Calculator />
+    {/* <Calculator /> */}
   </React.StrictMode>
 );
 
