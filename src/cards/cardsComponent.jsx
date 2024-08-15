@@ -2,7 +2,7 @@ import React from "react";
 
 function Card(props){
     return(
-        <div className="card"  style={{border : 1px solid red}}>
+        <div className="card"  style={{ border :"2px dotted orange", marginInline: "auto" , width : "80%", display: "flex", textAlign:"center" , alignItems:"center", justifyContent: "space-around", flexDirection:"column", gap: "30px", boxSizing:"border-box" }}>
             <img src= {props.imageUrl} alt= {props.title} className="card-img"  style = {{height : '200px' , width : '300px'}}/>
             <div className="card-body">
                 <h2>{props.title}</h2>
