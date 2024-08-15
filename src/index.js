@@ -10,6 +10,8 @@ import Form from "./useRef/focusingInput";
 import VideoPlayer from "./useRef/playAndPause";
 import Data from "./customHook/useCustomHook";
 import Calculator from "./customHook/calculator/calculator";
+import Card from "./cards/cardsComponent";
+import ProductList from "./cards/usingCardsComponet";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +24,9 @@ root.render(
     <VideoPlayer />
     <Data />
     {/* <Calculator /> */}
+
+    {/* <Card /> */}
+    <ProductList />
   </React.StrictMode>
 );
 

@@ -2,8 +2,8 @@ import React from "react";
 
 function Card(props){
     return(
-        <div className="card">
-            <img src= {props.imageUrl} alt= {props.title} className="card-img"/>
+        <div className="card"  style={{border : 1px solid red}}>
+            <img src= {props.imageUrl} alt= {props.title} className="card-img"  style = {{height : '200px' , width : '300px'}}/>
             <div className="card-body">
                 <h2>{props.title}</h2>
                 <p>{props.description}</p>
